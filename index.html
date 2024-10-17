@@ -4,19 +4,21 @@
     <meta charset="UTF-8">
     <title>Chúc Mừng 20/10</title>
     <!-- Font chữ đẹp -->
-    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Dancing+Script:wght@700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Dancing+Script:wght@700&family=Pacifico&display=swap" rel="stylesheet">
     <!-- Icon từ Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <!-- AOS CSS -->
     <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
-    <!-- CSS -->
+    <!-- CSS tùy chỉnh -->
     <link rel="stylesheet" href="styles.css">
+    <!-- Thêm thẻ meta để đảm bảo responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
     <!-- Nhạc nền -->
-    <audio id="background-music" src="music/sayyes.mp3" autoplay loop></audio>
+    <audio id="background-music" src="music/song.mp3" autoplay loop></audio>
 
     <!-- Hiệu ứng trái tim bay -->
     <div id="hearts"></div>
@@ -39,7 +41,7 @@
         <!-- Popup lời chúc -->
         <div id="myModal" class="modal fade">
             <div class="modal-dialog modal-dialog-centered">
-                <div class="modal-content">
+                <div class="modal-content" style="background-image: url('images/popup-background.jpg'); background-size: cover;">
                     <div class="modal-header">
                         <h5 class="modal-title">Thông Điệp Bí Mật</h5>
                         <button type="button" class="close" data-dismiss="modal">&times;</button>
@@ -105,7 +107,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <!-- AOS JS -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <!-- Tệp JavaScript -->
+    <!-- Tệp JavaScript tùy chỉnh -->
     <script src="script.js"></script>
 </body>
 </html>
