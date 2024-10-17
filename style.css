@@ -103,7 +103,7 @@ header p {
     background: rgba(255, 255, 255, 0.9);
     color: #ff7eb3;
     border-radius: 15px;
-    background-image: url('images/popup-background.jpg');
+    background-image: url('images/background.jpg');
     background-size: cover;
 }
 
